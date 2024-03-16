@@ -1,0 +1,77 @@
+body {
+    background-color: #f0f5e5;
+    margin: 0; /* Elimina el margen predeterminado del cuerpo */
+    padding: 0; /* Elimina el relleno predeterminado del cuerpo */
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed; /* Establece un ancho fijo para las celdas */
+    
+}
+
+.table td {
+    border: 1px solid black;
+    padding: 0px;
+    vertical-align: top;
+    
+}
+.letras{
+    font-family: "Creepster", system-ui;
+    color: gray;
+}
+.letras2{
+    font-family: "Electrolize", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: red;
+}
+.letras3{
+    font-family: "Truculenta", sans-serif;
+    font-optical-sizing: auto;}
+.circulo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.resaltado {
+    background-color: #c0c0c0; /* Color de fondo */
+    border: 5px solid #838282; /* Borde sólido de 2px */
+    border-radius: 10px; /* Borde redondeado */
+    padding: 0px; /* Espacio interno */
+}
+.logos-button {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #405de6; /* Color de fondo del botón de Instagram */
+    border: 2px solid #405de6; /* Borde del botón de Instagram */
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s, border-color 0.3s;
+    margin-top: 20px; /* Espacio entre la imagen y el botón */
+}
+
+.logos-button img {
+    width: 20px; /* Tamaño del logo de Instagram */
+    vertical-align: middle;
+    margin-right: 3px; /* Espacio entre el logo y el texto */
+}
+
+.logos-button:hover {
+    background-color: transparent;
+    color: #405de6; /* Cambia esto al color del fondo */
+}
+
